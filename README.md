@@ -13,11 +13,7 @@ This repository contains a simple Rust-based AWS Lambda function, demonstrating 
     - `Cargo.lock`: Rust dependencies lock file.
     - `Cargo.toml`: Rust configuration file.
 - `terraform/`: Terraform configuration for deploying the Lambda function.
-    - `.terraform/`: Terraform modules directory.
-    - `.terraform.lock.hcl`: Terraform lock file.
     - `main.tf`: Main Terraform configuration file.
-    - `terraform.tfstate`: Terraform state file.
-    - `terraform.tfstate.backup`: Backup of Terraform state file.
 - `Readme.md`: Documentation of the project.
 
 #### Deployment Instructions
@@ -49,11 +45,7 @@ Este repositorio contiene una función simple de AWS Lambda desarrollada en Rust
     - `Cargo.lock`: Archivo de bloqueo de dependencias de Rust.
     - `Cargo.toml`: Archivo de configuración de Rust.
 - `terraform/`: Configuración de Terraform para desplegar la función Lambda.
-    - `.terraform/`: Directorio de módulos de Terraform.
-    - `.terraform.lock.hcl`: Archivo de bloqueo de Terraform.
     - `main.tf`: Archivo principal de configuración de Terraform.
-    - `terraform.tfstate`: Archivo de estado de Terraform.
-    - `terraform.tfstate.backup`: Respaldo del archivo de estado de Terraform.
 - `Readme.md`: Documentación del proyecto.
 
 #### Instrucciones de Despliegue
