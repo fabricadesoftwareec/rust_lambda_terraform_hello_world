@@ -12,7 +12,7 @@ async fn hello_world(event: LambdaEvent<Value>) -> Result<Value, Error> {
 
     // Aquí manejarías el evento. Por ahora, simplemente respondemos con un JSON.
     // `json!` es una macro de serde_json que crea objetos JSON de manera conveniente.
-    Ok(json!({ "message": "Hola Mundo desde AWS Lambda, Rust y Terraform. #IaC :)" }))
+    Ok(json!({ "message": "Hola Mundo desde AWS Lambda, Rust y Terraform. #IaC... :)" }))
 }
 
 // La función principal del programa.

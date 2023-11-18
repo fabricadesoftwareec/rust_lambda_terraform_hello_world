@@ -25,11 +25,11 @@ bash:
 
     cargo lambda build --release --output-format zip
 
-    terraform -chdir=../terraform plan
+    terraform -chdir=../terraform apply
 
 Alternatively, you can run:
 
-    cargo lambda build --release --output-format zip;terraform -chdir=../terraform plan
+    cargo lambda build --release --output-format zip;terraform -chdir=../terraform apply
 
 
 ### Versión en Español
@@ -57,9 +57,9 @@ bash:
 
     cargo lambda build --release --output-format zip
 
-    terraform -chdir=../terraform plan
+    terraform -chdir=../terraform apply
 
 Alternativamente, puede ejecutar:
 
-    cargo lambda build --release --output-format zip;terraform -chdir=../terraform plan
+    cargo lambda build --release --output-format zip;terraform -chdir=../terraform apply
 
